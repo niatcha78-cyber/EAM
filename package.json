@@ -1,0 +1,19 @@
+{
+  "name": "eam-prototype-backend",
+  "version": "0.2.0",
+  "description": "Prototype EAM backend for tissue manufacturing, backed by Firebase Authentication (email/password) and Firestore",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^12.1.0",
+    "morgan": "^1.10.0"
+  }
+}
